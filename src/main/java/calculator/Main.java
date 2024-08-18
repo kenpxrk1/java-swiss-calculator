@@ -7,9 +7,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         CalculatorManager manager = new CalculatorManager();
         System.out.println("Для завершения программы введите пробел");
-        while (true){
+        while (true) {
             String operation = sc.nextLine();
-            if (operation.equals(" ")){
+            if (operation.equals(" ")) {
                 System.out.println("Программа завершена");
                 break;
             }
