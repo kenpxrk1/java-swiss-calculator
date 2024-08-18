@@ -13,7 +13,7 @@ public class Main {
                 System.out.println("Программа завершена");
                 break;
             }
-            manager.operationsHandler(operation);
+            manager.handleOperations(operation);
         }
     }
 }

@@ -5,7 +5,7 @@ import calculator.util.InputValidator;
 public class CalculatorManager {
     private static final InputValidator VALIDATOR = new InputValidator();
 
-    public String operationsHandler(String userInput) {
+    public String handleOperations(String userInput) {
         String[] args = userInput.split(" ");
         VALIDATOR.validateInput(args);
         String operand1 = args[0];
