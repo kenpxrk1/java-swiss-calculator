@@ -1,4 +1,4 @@
-package calculator;
+package swissCalculator.calculator;
 
 public interface Calculator {
     String add(String a, String b);

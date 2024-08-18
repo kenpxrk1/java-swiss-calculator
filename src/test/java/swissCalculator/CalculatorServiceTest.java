@@ -1,10 +1,11 @@
-package calculator;
+package swissCalculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import swissCalculator.calculator.CalculatorService;
 
-public class CalculatorManagerTest {
-    CalculatorManager manager = new CalculatorManager();
+public class CalculatorServiceTest {
+    CalculatorService manager = new CalculatorService();
 
     @Test
     void calculateAdd_returnCorrectAnswer_correctArabicNumbers() {

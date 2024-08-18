@@ -5,7 +5,7 @@
   <groupId>main.java</groupId>
   <artifactId>swiss-calculator</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Archetype - swiss-calculator</name>
+  <name>Archetype - swiss-swissCalculator</name>
   <url>http://maven.apache.org</url>
 
   <properties>

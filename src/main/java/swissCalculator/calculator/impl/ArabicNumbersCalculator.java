@@ -1,4 +1,6 @@
-package calculator;
+package swissCalculator.calculator.impl;
+
+import swissCalculator.calculator.Calculator;
 
 public class ArabicNumbersCalculator implements Calculator {
 

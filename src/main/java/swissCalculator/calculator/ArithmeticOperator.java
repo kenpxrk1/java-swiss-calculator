@@ -1,4 +1,4 @@
-package calculator;
+package swissCalculator.calculator;
 
 public enum ArithmeticOperator {
     ADD("+"), SUB("-"), MULTIPLY("*"), DIVIDE("/");

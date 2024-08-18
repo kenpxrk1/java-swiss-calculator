@@ -1,11 +1,13 @@
-package calculator;
+package swissCalculator;
+
+import swissCalculator.calculator.CalculatorService;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        CalculatorManager manager = new CalculatorManager();
+        CalculatorService calculatorService = new CalculatorService();
         System.out.println("Для завершения программы введите пробел");
         while (true) {
             String operation = sc.nextLine();
@@ -13,7 +15,7 @@ public class Main {
                 System.out.println("Программа завершена");
                 break;
             }
-            manager.handleOperation(operation);
+            calculatorService.handleOperation(operation);
         }
     }
 }

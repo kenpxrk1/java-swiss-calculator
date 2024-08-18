@@ -1,7 +1,8 @@
-package calculator;
+package swissCalculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import swissCalculator.calculator.impl.ArabicNumbersCalculator;
 
 class ArabicNumbersCalculatorTest {
     private static final ArabicNumbersCalculator calculator = new ArabicNumbersCalculator();

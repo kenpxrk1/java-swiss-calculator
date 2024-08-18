@@ -1,8 +1,9 @@
-package calculator;
+package swissCalculator;
 
-import calculator.util.InputValidator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import swissCalculator.calculator.CalculatorType;
+import swissCalculator.calculator.InputValidator;
 
 public class InputValidatorTest {
     InputValidator validator = new InputValidator();

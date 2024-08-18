@@ -1,4 +1,7 @@
-package calculator;
+package swissCalculator.calculator;
+
+import swissCalculator.calculator.impl.ArabicNumbersCalculator;
+import swissCalculator.calculator.impl.RomanNumbersCalculator;
 
 public class CalculatorFactory {
     public static Calculator getCalculator(CalculatorType calcType) {

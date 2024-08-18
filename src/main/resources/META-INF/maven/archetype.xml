@@ -1,5 +1,5 @@
 <archetype>
-  <id>swiss-calculator</id>
+  <id>swiss-swissCalculator</id>
   <sources>
     <source>src/main/java/App.java</source>
   </sources>
