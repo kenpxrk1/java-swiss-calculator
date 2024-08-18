@@ -1,8 +1,8 @@
 package calculator;
 
 public class CalculatorFactory {
-    public static Calculator getCalculator(CalculatorType calcType){
-        switch (calcType){
+    public static Calculator getCalculator(CalculatorType calcType) {
+        switch (calcType) {
             case ARABIC:
                 return new ArabicNumbersCalculator();
             case ROMAN:

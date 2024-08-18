@@ -5,7 +5,7 @@ import calculator.util.InputValidator;
 public class CalculatorManager {
     private static final InputValidator VALIDATOR = new InputValidator();
 
-    public String operationsHandler(String userInput){
+    public String handleOperation(String userInput) {
         String[] args = userInput.split(" ");
         VALIDATOR.validateInput(args);
         String operand1 = args[0];
@@ -13,7 +13,7 @@ public class CalculatorManager {
         ArithmeticOperator arithmeticOperator = ArithmeticOperator.getOperatorBySymbol(args[1]);
         Calculator calculator = CalculatorFactory.getCalculator(VALIDATOR.getCalculatorType(operand1, operand2));
         String result;
-        switch (arithmeticOperator){
+        switch (arithmeticOperator) {
             case ADD:
                 result = calculator.add(operand1, operand2);
                 System.out.println(result);
@@ -34,4 +34,4 @@ public class CalculatorManager {
                 throw new UnsupportedOperationException("Unsupported operation");
         }
     }
-    }
+}
